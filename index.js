@@ -33,7 +33,7 @@ $(document).ready(function() {
                                    }
                                    const padding_left = 70;
                                    const padding_top = 0;
-                                   const padding_bottom = 90;
+                                   const padding_bottom = 80;
                                    const padding_right = 100;
                                    const w = 1000;
                                    const h = window.innerHeight-140;
@@ -104,7 +104,7 @@ $(document).ready(function() {
                                    svg.append('text')
                                    .text("Months")
                                    .attr('x',20)
-                                   .attr('y',200)
+                                   .attr('y',h-padding_bottom-h/12*6)
                                    .attr('class','label_y')
 
                                    //x-label
