@@ -35,7 +35,7 @@ $(document).ready(function() {
                                    const padding_top = 0;
                                    const padding_bottom = 90;
                                    const padding_right = 100;
-                                   const w = 1200;
+                                   const w = 1000;
                                    const h = window.innerHeight-140;
                                    const graph = document.getElementById('graph');
                                    const svg = d3.select(graph)
